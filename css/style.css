@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background: hsl(257, 50%, 49%) url(/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg)
+    
+}
+main {
+    display: flex;
+    flex: 1;
+    margin-top: 3rem;
+}
+.img-fluid {
+    flex: 1;
+}
+.texto {
+    flex: 1;
+    margin: auto;
+    padding: 2rem;
+}
+p {
+    text-align: center;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
