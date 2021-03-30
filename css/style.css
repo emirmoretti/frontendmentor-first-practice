@@ -1,36 +1,93 @@
-* {
-    box-sizing: border-box;
+:root{
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+    --white:hsl(0, 0%, 100%);
 }
-
 
 body {
-    display: flex;
-    flex-direction: column;
-    padding: 1em;
-    background: hsl(257, 50%, 49%) url(/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg)
-    
+    background: var(--violet) url(../images/bg-mobile.svg) no-repeat;
 }
-main {
-    display: flex;
-    flex: 1;
-    margin-top: 3rem;
+.logo {
+    width: 13rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
 }
-.img-fluid {
-    flex: 1;
+.div-imagen {
+    padding-left: 30px;
+    padding-right: 30px; 
 }
+.img-main {
+    width: 20rem;
+}
+/** Titulo y Parrafo**/
 .texto {
-    flex: 1;
     margin: auto;
-    padding: 2rem;
-}
-p {
-    text-align: center;
+    padding: 1.8rem;
 }
 h1 {
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: var(--white);
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 600;
 }
 p {
     font-family: 'Open Sans', sans-serif;
-    color: white;
+    color: var(--white);
+    text-align: center;
+    line-height: 1.7rem;
+    font-weight: 400;
 }
+.boton {
+    display: block;
+    width: 10rem;
+    padding: 5px;
+    border-radius: 30px;
+    color: var(--violet);
+    background: var(--white);
+    box-shadow: 2px 2px 17px rgba(0, 0, 0, 50%);
+    text-decoration: none;
+    border: none;
+    margin: auto;
+    text-align: center;
+    margin-top: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.boton:hover {
+    background-color: var(--soft-magenta);
+    color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background: var(--violet) url(../images/bg-desktop.svg) no-repeat;
+    }
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .div-imagen {
+        padding: 0;
+    }
+    .img-main {
+        width: 40rem;
+    }
+    .texto {
+        width: 30rem;
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h1, p {
+        text-align: left;
+    }
+    .boton {
+        display: inline-block;
+    }
+}
+/**@media screen and (min-width: 1024px) **/
