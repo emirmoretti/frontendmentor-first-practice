@@ -59,7 +59,53 @@ p {
     background-color: var(--soft-magenta);
     color: var(--white);
 }
-
+footer {
+    text-align: center;
+}
+.fa-facebook-f {
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    padding: 10px;
+    width: 45px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    order: 1;
+}
+.fa-facebook-f:hover {
+    color: var(--soft-magenta);
+    border: 1px solid var(--soft-magenta);
+}
+.fa-twitter {
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    padding: 10px;
+    width: 45px;
+    font-size: 1.4rem;
+}
+.fa-twitter:hover {
+    color: var(--soft-magenta);
+    border: 1px solid var(--soft-magenta);
+}
+.fa-instagram {
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    padding: 10px;
+    width: 45px;
+    font-size: 1.4rem;
+}
+.fa-instagram:hover {
+    color: var(--soft-magenta);
+    border: 1px solid var(--soft-magenta);
+}
+i {
+    margin: 10px;
+}
+.atribution-div {
+    padding-top: 10px;
+}
 @media screen and (min-width: 768px) {
     body {
         background: var(--violet) url(../images/bg-desktop.svg) no-repeat;
@@ -88,6 +134,14 @@ p {
     }
     .boton {
         display: inline-block;
+    }
+    .socials {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-right: 2rem;
+    }
+    i {
+        margin: 1rem;
     }
 }
 /**@media screen and (min-width: 1024px) **/
