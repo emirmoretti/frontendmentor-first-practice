@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./page.jpg)
+![](../images/page.jpg)
 
 ### Links
 
@@ -53,18 +53,14 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+git init
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+```
+git add .
+```
+```
+git push -u origin master
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
