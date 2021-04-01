@@ -8,15 +8,12 @@ This is a solution to the [Huddle landing page with single introductory section 
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 Hello everyone! I'm Emir and this is my first challenge from Frontendmentor
@@ -29,14 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](../images/page.jpg)
+![](./images/page.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://emirmoretti.github.io/frontendmentor-first-practice/)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
 
 ### Built with
 
@@ -45,27 +40,28 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+With this project I learned some commands of Git//GitHub and how it works.
 
 ```
 git init
 ```
 ```
+git branch
+```
+```
 git add .
+```
+```
+git commmit -m
 ```
 ```
 git push -u origin master
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+```
+git merge
+```
 
 ### Continued development
 
@@ -74,18 +70,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Fontawesome](https://fontawesome.com/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Font google](https://fonts.google.com/) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
-
 
 - Frontend Mentor - [@emirmoretti](https://www.frontendmentor.io/profile/emirmoretti)
 - Twitter - [@emirmoretti](https://www.twitter.com/emirmoretti)
 - Instagram - [@emirmoretti](https://www.instagram.com/emirmoretti)
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
