@@ -63,15 +63,10 @@ git push -u origin master
 git merge
 ```
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-
 ### Useful resources
 
-- [Fontawesome](https://fontawesome.com/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Font google](https://fonts.google.com/) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Fontawesome](https://fontawesome.com/) - 
+- [Font google](https://fonts.google.com/) -
 
 ## Author
 
