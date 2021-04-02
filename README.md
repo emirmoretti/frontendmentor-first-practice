@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](../frontendmentor-first-practice/images/page.jpg)
+![Screenshot](./frontendmentor-first-practice/images/page.jpg)
 
 ### Links
 
