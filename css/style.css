@@ -123,6 +123,8 @@ i {
     }
     .img-main {
         width: 40rem;
+        display: block;
+        margin: 0 auto;
     }
     .texto {
         width: 30rem;
