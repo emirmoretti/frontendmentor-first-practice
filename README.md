@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://emirmoretti.github.io/frontendmentor-first-practice/)
+- Solution URL: [solution URL here](https://emirmoretti.github.io/landingPageFm/)
 
 ### Built with
 
